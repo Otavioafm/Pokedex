@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, #6ab7f5, #fff )
+}
+
+main{
+    display: inline-block;
+    margin: 60px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.pokedex{
+    border-radius: 3px;
+    width: 440px;
+}
+
+.imgPokemon{
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-63%, 20%);
+    height: 18%;
+}
+
+.pokemonData{
+    position: absolute;
+    font-weight: 600;
+    top: 54.4%;
+    color: #aaa;
+    right: 27%;
+}
+
+.NomePokemon{
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
+.form{
+    position: absolute;
+    top: 65%;
+    left: 9.8%;
+    width: 72%;
+    border-radius: 6px;
+}
+
+.busca{
+    width: 100%;
+    padding: 4%;
+    font-size: 20px;
+    outline: none;
+    border: 3.5px solid #333;
+    border-radius: 6px;
+    color: #3a444d;
+}
+
+.botoes{
+    position: absolute;
+    bottom: 10%;
+    left: 9.8%;
+    width: 72%;
+    display: inline-flex;
+    gap: 30px;
+}
+
+button{
+    font-size: 100%;
+    font-weight: 600;
+    width: 50%;
+    padding: 4%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2.6px solid black ;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 2px 0 #222, -4px 4px 0 black;
+}
+
+button:active{
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+    /*pokemon 321 = you mom*/
+}
+
+.luna{
+    position: absolute;
+    width: 100px;
+    padding: 0%;
+    right: 0;
+}
+
+.solar{
+    position: absolute;
+    width: 180px;
+    padding: 0%;
+    left: 1px;
+   
+}
+
+
+
